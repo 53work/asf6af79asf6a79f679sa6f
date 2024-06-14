@@ -1,7 +1,7 @@
 --[[
 
 WorkZ Interface Suite
-by Sirius
+originally by Sirius, new by 53_work
 
 53_work | UI Remake
 shlex | Designing + Programming
@@ -994,7 +994,7 @@ function WorkZLibrary:CreateWindow(Settings)
 		if not Passthrough then
 			local AttemptsRemaining = math.random(2,6)
 			WorkZ.Enabled = false
-			local KeyUI = game:GetObjects("rbxassetid://11380036235")[1]
+			local KeyUI = game:GetObjects("rbxassetid://17859533131")[1]
 
 			if gethui then
 				KeyUI.Parent = gethui()
